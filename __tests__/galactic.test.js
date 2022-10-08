@@ -50,6 +50,6 @@ describe('GalacticCalc', () => {
   });
 
   test('should give the users life expectancy in Venus years in the form of a string', () => {
-    expect(age.venYrsLeft()).toEqual("You have 80 venus years left to live!");
+    expect(age.venYrsLeft()).toEqual("You have 79 venus years left to live!");
   });
 });
