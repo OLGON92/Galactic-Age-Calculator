@@ -68,4 +68,8 @@ describe('GalacticCalc', () => {
   test('should give the users life expectancy in Jupiter years in the form of a string', () => {
     expect(age.jupYrsLeft()).toEqual("You have 4 jupiter years left to live!");
   });
+
+  test('should give the users number of Jupiter years that they have lived past their life expectancy in the form of a string', () => {
+    expect(age2.jupYrsLeft()).toEqual("You have lived 1 jupiter years past your life expectancy!");
+  });
 });
