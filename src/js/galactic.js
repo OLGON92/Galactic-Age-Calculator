@@ -14,5 +14,9 @@ export default class GalacticCalc {
   marsAge() {
     return Math.floor(this.earthAge / 1.88);
   }
+
+  jupAge() {
+    return Math.floor(this.earthAge / 11.68);
+  }
 }
 
