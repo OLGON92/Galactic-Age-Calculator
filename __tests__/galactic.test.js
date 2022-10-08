@@ -1,15 +1,13 @@
-import test from 'node:test';
-import { describe } from 'yargs';
 import GalacticCalc from '../src/js/galactic.js';
 
 describe('GalacticCalc', () => {
-  let earthAge;
+  let age;
 
   beforeEach(() => {
-    earthAge = new GalacticCalc(30);
+    age = new GalacticCalc(30);
   });
 
   test('should correctly create a GalacticCalc object based on users age', () => {
-    expect(earthAge.age).toEqual(30);
+    expect(age.earthAge).toEqual(30);
   });
 });
