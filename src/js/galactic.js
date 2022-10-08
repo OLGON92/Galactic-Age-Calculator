@@ -46,9 +46,10 @@ export default class GalacticCalc {
 
     if(venYrs > 0) {
       return `You have ${venYrs} venus years left to live!`;
-    }
-    
-    
+    } else {
+      let venExp = venYrs * -1;
+      return `You have lived ${venExp} venus years past your life expectancy!`;
+    } 
   }
 }
 
