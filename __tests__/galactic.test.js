@@ -27,7 +27,7 @@ describe('GalacticCalc', () => {
     expect(age.jupAge()).toEqual(2);
   });
 
-  test('should give the users life expectancy in earth years', () => {
-    expect(age.earthYrsLeft()).toEqual(49);
+  test('should give the users life expectancy in earth years in the form of a string', () => {
+    expect(age.earthYrsLeft()).toEqual("You have 49 earth years left to live!");
   });
 });
