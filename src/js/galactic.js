@@ -6,5 +6,9 @@ export default class GalacticCalc {
   mercAge() {
     return Math.floor(this.earthAge / .24);
   }
+
+  venusAge() {
+    return Math.floor(this.earthAge / .62);
+  }
 }
 
