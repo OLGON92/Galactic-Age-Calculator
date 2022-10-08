@@ -57,6 +57,9 @@ export default class GalacticCalc {
 
     if(marsYrs > 0) {
       return `You have ${marsYrs} mars years left to live!`;
+    } else {
+      let marsExp = marsYrs * -1;
+      return `You have lived ${marsExp} mars years past your life expectancy!`;
     } 
   }
 }
