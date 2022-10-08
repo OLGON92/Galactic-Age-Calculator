@@ -36,7 +36,8 @@ export default class GalacticCalc {
     if(mercYrs > 0) {
       return `You have ${mercYrs} mercury years left to live!`;
     } else {
-      
+      let mercExp = mercYrs * -1;
+      return `You have lived ${mercExp} mercury years past your life expectancy!`;
     }
   }
 }
