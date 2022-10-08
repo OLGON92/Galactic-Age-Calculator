@@ -20,9 +20,13 @@ export default class GalacticCalc {
   }
 
   earthYrsLeft() {
-    let yrsLeft = Math.floor(79 - this.earthAge);
-      if(yrsLeft < 79) {
+    const yrsLeft = Math.floor(79 - this.earthAge);
+    
+    if(yrsLeft > 0) {
         return `You have ${yrsLeft} earth years left to live!`;
+      } else {
+        let pastLfeExp = yrsLeft * -1;
+        return `You have lived ${pastLfeExp} earth years past your life expectancy!`;
       }
   }
 
