@@ -18,4 +18,8 @@ describe('GalacticCalc', () => {
   test('should give the users age in Venus time', () => {
     expect(age.venusAge()).toEqual(48);
   });
+
+  test('should give the users age in Mars time', () => {
+    expect(age.marsAge()).toEqual(15);
+  });
 });
