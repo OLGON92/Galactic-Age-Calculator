@@ -68,7 +68,10 @@ export default class GalacticCalc {
 
     if(jupYrs > 0) {
       return `You have ${jupYrs} jupiter years left to live!`;
-    } 
+    } else {
+      let jupExp = jupYrs * -1;
+      return `You have lived ${jupExp} jupiter years past your life expectancy!`;
+    }
   }
 }
 
