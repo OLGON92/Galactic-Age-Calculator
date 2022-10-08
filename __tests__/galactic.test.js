@@ -61,7 +61,11 @@ describe('GalacticCalc', () => {
     expect(age.marsYrsLeft()).toEqual("You have 26 mars years left to live!");
   });
 
-  test('should give the users number of Marss years that they have lived past their life expectancy in the form of a string', () => {
+  test('should give the users number of Mars years that they have lived past their life expectancy in the form of a string', () => {
     expect(age2.marsYrsLeft()).toEqual("You have lived 6 mars years past your life expectancy!");
+  });
+
+  test('should give the users life expectancy in Jupiter years in the form of a string', () => {
+    expect(age.jupYrsLeft()).toEqual("You have 4 jupiter years left to live!");
   });
 });
