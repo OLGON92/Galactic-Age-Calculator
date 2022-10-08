@@ -62,6 +62,14 @@ export default class GalacticCalc {
       return `You have lived ${marsExp} mars years past your life expectancy!`;
     } 
   }
+
+  jupYrsLeft() {
+    const jupYrs = Math.floor((79 - this.earthAge) / 11.86);
+
+    if(jupYrs > 0) {
+      return `You have ${jupYrs} jupiter years left to live!`;
+    } 
+  }
 }
 
 
