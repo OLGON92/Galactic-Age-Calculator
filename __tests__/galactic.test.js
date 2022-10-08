@@ -26,4 +26,8 @@ describe('GalacticCalc', () => {
   test('should give the users age in Jupiter years', () => {
     expect(age.jupAge()).toEqual(2);
   });
+
+  test('should give the users life expectancy in earth years', () => {
+    expect(age.earthYrsLeft()).toEqual(49);
+  });
 });
