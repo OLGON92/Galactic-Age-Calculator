@@ -18,5 +18,11 @@ export default class GalacticCalc {
   jupAge() {
     return Math.floor(this.earthAge / 11.68);
   }
+
+  earthYrsLeft() {
+    let yrsLeft = Math.floor(79 - this.earthAge) 
+      return yrsLeft
+  }
 }
+
 
