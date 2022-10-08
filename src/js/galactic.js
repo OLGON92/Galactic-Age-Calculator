@@ -10,5 +10,9 @@ export default class GalacticCalc {
   venusAge() {
     return Math.floor(this.earthAge / .62);
   }
+
+  marsAge() {
+    return Math.floor(this.earthAge / 1.88);
+  }
 }
 
