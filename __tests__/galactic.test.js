@@ -48,4 +48,8 @@ describe('GalacticCalc', () => {
   test('should give the users number of Mercury years that they have lived past their life expectancy in the form of a string', () => {
     expect(age2.mercYrsLeft()).toEqual("You have lived 46 mercury years past your life expectancy!");
   });
+
+  test('should give the users life expectancy in Venus years in the form of a string', () => {
+    expect(age.venYrsLeft()).toEqual("You have 80 venus years left to live!");
+  });
 });
