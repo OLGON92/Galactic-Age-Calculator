@@ -11,15 +11,19 @@ describe('GalacticCalc', () => {
     expect(age.earthAge).toEqual(30);
   });
 
-  test('should give the users age in Mercury time', () => {
+  test('should give the users age in Mercury years', () => {
     expect(age.mercAge()).toEqual(125);
   });
 
-  test('should give the users age in Venus time', () => {
+  test('should give the users age in Venus years', () => {
     expect(age.venusAge()).toEqual(48);
   });
 
-  test('should give the users age in Mars time', () => {
+  test('should give the users age in Mars years', () => {
     expect(age.marsAge()).toEqual(15);
+  });
+
+  test('should give the users age in Jupiter years', () => {
+    expect(age.jupAge()).toEqual(2);
   });
 });
