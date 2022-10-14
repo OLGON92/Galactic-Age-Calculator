@@ -14,9 +14,7 @@ module.exports = {
   },
   devtool: 'eval-source-map',
   plugins: [
-    new ESLintPlugin({
-      option1: value
-    }),
+    new ESLintPlugin(),
     new CleanWebpackPlugin({
       verbose: true
     }),
